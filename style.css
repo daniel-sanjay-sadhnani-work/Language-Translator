@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #5372F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 690px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 7px;
+}
+.wrapper{
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid #bfbfbf;
+}
+.text-input .to-text{
+    border-radius: 0px;
+    border-left: 1px solid #ccc;
+}
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.controls, li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+}
+.controls{
+    list-style: none;
+    padding: 12px 15px;
+}
+.controls .row.from .icons{
+    padding-right: 15px;
+    border-right: 1px solid #ccc;
+}
+.controls .row.to .icons{
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+}
+.controls .icons{
+    width: 38%;
+}
+.controls .icons i{
+    font-size: 20px;
+    color: #8e8e8e;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    width: 50px;;
+    justify-content: center;
+}
+.controls .icons i:hover{
+    color: #5372F0;
+}
+.controls .row select{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.controls .exchange{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #5372F0;
+    color: #fff;
+    cursor: pointer;
+}
+.container button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background: #5372F0;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
